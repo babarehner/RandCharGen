@@ -14,7 +14,7 @@ def make_ran_char1():
         output += (random.choice(string.lowercase + string.digits))
     return output
  
-# Pythonistic way- also moreefficient
+# Pythonistic way- also more efficient
 def make_ran_char2():
     return ''.join(random.choice(string.lowercase + string.digits)for _i in range(5))
   
