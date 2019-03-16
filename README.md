@@ -1,6 +1,8 @@
 RandCharGen
 ===========
 
+Updated March 14, 2019 to use Python 3 and the Python 3.6 secrets module
+
 Creates a set of random characters. Can be used as a password generator, a salt generator or create a GAE (Google App Engine) site name generator. Two functions, each returns a random set of characters. One is written in a clearer polyglot way and the other is written in a more Pythonic way. String constants can be changed out to change your random set of characters.
 
 
